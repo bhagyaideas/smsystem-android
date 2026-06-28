@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SMS Native</string>
+    <string name="home_title">Operations hub</string>
+    <string name="home_subtitle">Launch the Viewer, Stock Mover, and Sample Manager workflows from one Android 6+ native app.</string>
+
+    <string name="viewer_title">Viewer</string>
+    <string name="viewer_description">Review assigned items, track activity, and jump back into recent work.</string>
+    <string name="open_viewer">Open Viewer</string>
+    <string name="viewer_screen_summary">A compact native dashboard for quickly searching, filtering, and reviewing active viewer tasks.</string>
+    <string name="viewer_search_hint">Search batch, location, or item code</string>
+    <string name="viewer_filter_open">Open items</string>
+    <string name="viewer_filter_recent">Recent activity</string>
+    <string name="viewer_stat_pending">Pending review</string>
+    <string name="viewer_stat_completed">Completed today</string>
+    <string name="viewer_list_title">Assigned work</string>
+    <string name="viewer_item_one">WH-A12 • Aspirin 250mg • Awaiting visual check</string>
+    <string name="viewer_item_two">WH-C04 • Vitamin C • Ready for close-out</string>
+
+    <string name="stock_mover_title">Stock Mover</string>
+    <string name="stock_mover_description">Capture movement requests between source and destination locations in a touch-friendly flow.</string>
+    <string name="open_stock_mover">Open Stock Mover</string>
+    <string name="stock_mover_screen_summary">Native transfer form with the key details needed to move stock across warehouse locations.</string>
+    <string name="stock_mover_source_hint">Source location</string>
+    <string name="stock_mover_destination_hint">Destination location</string>
+    <string name="stock_mover_item_hint">Item code or description</string>
+    <string name="stock_mover_quantity_hint">Quantity</string>
+    <string name="stock_mover_action">Create move request</string>
+    <string name="stock_mover_recent_title">Recent moves</string>
+    <string name="stock_mover_recent_one">RM-2481 • Aisle 4 to Dispatch Bay • 12 units</string>
+    <string name="stock_mover_recent_two">RM-2479 • Cold room to QA Hold • 3 units</string>
+
+    <string name="sample_manager_title">Sample Manager</string>
+    <string name="sample_manager_description">Track batches, note statuses, and keep the sample approval queue visible on mobile.</string>
+    <string name="open_sample_manager">Open Sample Manager</string>
+    <string name="sample_manager_screen_summary">Focused native screen for capturing sample details and following approval readiness.</string>
+    <string name="sample_manager_batch_hint">Batch or sample ID</string>
+    <string name="sample_manager_product_hint">Product name</string>
+    <string name="sample_manager_status_queued">Queued</string>
+    <string name="sample_manager_status_ready">Ready</string>
+    <string name="sample_manager_notes_hint">Notes for QA or warehouse teams</string>
+    <string name="sample_manager_action">Save sample update</string>
+    <string name="sample_manager_queue_title">Approval queue</string>
+    <string name="sample_manager_queue_one">SM-3902 • Stability sample • Ready for dispatch</string>
+    <string name="sample_manager_queue_two">SM-3898 • Retention sample • Waiting for QA sign-off</string>
+</resources>
