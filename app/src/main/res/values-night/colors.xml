@@ -1,0 +1,9 @@
+<resources>
+    <color name="screen_background">#FF101826</color>
+    <color name="surface">#FF172133</color>
+    <color name="surface_variant">#FF223049</color>
+    <color name="stroke">#FF344563</color>
+    <color name="text_primary">#FFF4F7FB</color>
+    <color name="text_secondary">#FFB7C2D7</color>
+    <color name="primary">#FF82A8FF</color>
+</resources>
