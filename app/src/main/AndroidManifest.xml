@@ -1,24 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bhagyaideas.smsystemandroid">
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <!--- Internet Permission Here-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Storage Permission -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Need this for API 33 -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
-        android:icon="@android:drawable/sym_def_app_icon"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SmsystemAndroid">
-        <activity
-            android:name=".SampleManagerActivity"
-            android:exported="false" />
-        <activity
-            android:name=".StockMoverActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ViewerActivity"
-            android:exported="false" />
+        android:theme="@style/Theme.WebviewPro"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+
+        <activity
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
